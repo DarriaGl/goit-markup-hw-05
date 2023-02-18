@@ -73,14 +73,13 @@ button.main-btn {
   padding: 16px 36px;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 button.main-btn:hover {
   background: var(--menu-or-address);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 button.main-btn:focus {
   background: var(--menu-or-address);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .advantages {
   padding-top: 120px;
@@ -122,13 +121,13 @@ button.main-btn:focus {
   border-right: 1px solid var(--foot-color);
   border-bottom: 1px solid var(--foot-color);
   padding: 32px 16px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card-block:hover,
 .card-block:focus {
   border-left: 1px solid var(--logo-logo);
   border-right: 1px solid var(--logo-logo);
   border-bottom: 1px solid var(--logo-logo);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card-item:is(:hover, :focus) .card-cover-text {
   transform: translateY(0);
@@ -163,6 +162,7 @@ button.btn {
   border-radius: 4px;
   padding: 12px 24px;
   border: 1px solid var(--foot-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 button.btn:hover {
   background: var(--menu-or-address);
@@ -170,7 +170,6 @@ button.btn:hover {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-color: transparent;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 button.btn:focus {
   background: var(--menu-or-address);
@@ -178,7 +177,6 @@ button.btn:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-color: transparent;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 h3.head-of-service {
   font-weight: 500;
@@ -233,12 +231,12 @@ h3.head-of-service {
 .lnk-card {
   text-decoration: none;
   display: block;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .lnk-card:hover,
 .lnk-card:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .lnk-head,
 .lnk-prh {
@@ -267,14 +265,13 @@ li {
   letter-spacing: 0.02em;
   color: var(--common-color);
   text-decoration: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-link:hover {
   color: var(--menu-or-address);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-link:focus {
   color: var(--menu-or-address);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-item {
   position: relative;
@@ -289,7 +286,7 @@ li {
   left: 0px;
   bottom: -25px;
   background-color: var(--menu-or-address);
-  width: 66px;
+  width: 100%;
   height: 4px;
   border-radius: 2px;
 }
@@ -300,14 +297,13 @@ li {
   color: var(--normal-color);
   font-style: normal;
   text-decoration: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover {
   color: var(--menu-or-address);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:focus {
   color: var(--menu-or-address);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logo-head {
   font-family: "Raleway", sans-serif;
@@ -374,14 +370,13 @@ li {
   justify-content: center;
   align-items: center;
   background-color: var(--blue-logo);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-sours-link:hover {
   background-color: var(--sours-hover-focus);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-sours-link:focus {
   background-color: var(--sours-hover-focus);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .head-hide {
   display: none;
@@ -407,17 +402,17 @@ li {
   border-radius: 4px;
   justify-content: center;
   align-items: center;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .cust-link:is(:hover, :focus) {
   border: 1px solid var(--cust-hover-focus);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .cust-icon {
   fill: var(--cust--color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .cust-link:is(:hover, :focus) .cust-icon {
   fill: var(--cust-hover-focus);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sours-block {
   text-align: left;
@@ -438,17 +433,16 @@ li {
 }
 .foot-link {
   background: rgba(255, 255, 255, 0.1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .foot-list {
   gap: 16px;
 }
 .foot-link:hover {
   background: var(--foot-sours-hover-focus);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .foot-link:focus {
   background: var(--foot-sours-hover-focus);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-block {
   background: var(--logo-logo);
@@ -493,6 +487,13 @@ li {
   align-items: center;
   margin-left: auto;
 }
+.modal-close:hover,
+.modal-close:focus {
+  fill: var(--white-option);
+  background: var(--cust-hover-focus);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
