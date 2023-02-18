@@ -276,6 +276,23 @@ li {
   color: var(--menu-or-address);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.menu-item {
+  position: relative;
+}
+.current {
+  color: var(--menu-or-address);
+}
+.current::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0px;
+  bottom: -25px;
+  background-color: var(--menu-or-address);
+  width: 66px;
+  height: 4px;
+  border-radius: 2px;
+}
 .address-link {
   font-size: 16px;
   line-height: 1.5;
